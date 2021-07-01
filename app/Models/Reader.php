@@ -5,12 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Reader extends Model
 {
     protected $fillable = [
-        'name',
-        'email',
-        'password',
-        'remember_token',
+        'user_id',
+        'book_id',
     ];
 }

@@ -1,0 +1,24 @@
+.header-minimal {
+  text-align: center;
+}
+
+.main-content {
+  margin: auto;
+}
+.main-content .catalog {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.main-content .catalog .book-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-minimal {
+  text-align: center;
+}
